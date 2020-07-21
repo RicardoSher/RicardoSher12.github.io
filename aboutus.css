@@ -1,0 +1,93 @@
+
+/* Split the screen in half */
+.split {
+  height: 70%;
+  width: 50%;
+  position: relative;
+  float: right;
+  z-index: 1;
+  top: 50;
+  overflow-x: visible;
+  padding-top: 20px;
+}
+
+
+/* Control the left side */
+.left {
+  z-index: 0;
+  left: 0;
+  flex-grow: 
+  position: relative;
+  float: left;
+  background-color: #111;
+}
+
+
+.uploads{
+  position: relative;
+  top:80%;
+  bottom:300%;
+
+  padding: 40;
+}
+.portfolio{
+  z-index: 0
+  float: right;
+  position: relative;
+
+}
+
+.uploads{
+  float: left;
+}
+/* Control the right side */
+.right {
+  outline-offset: top=50,bottom=50;
+  outline-offset: right =50,left=50;
+
+  position: left;
+  right: 0;
+  background-color: inherit;
+}
+
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0px;
+  flex-grow: 1;
+}
+
+.Skill ul{
+  display: flex;
+  list-style: none;
+  color:green;
+}
+
+  .Skill .container {
+  display: flex;
+  justify-content: space-between;
+}
+/*
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  flex-grow: 1;
+}
