@@ -94,7 +94,7 @@ input[type=button]
    fst1=parseInt(myform.fst1.value);
    snd1=parseInt(myform.snd1.value);
 
-   result=((fst*snd)+(fst1*snd1))/2;
+   result=((fst*snd)+(fst1*snd1))/(snd+snd1);
    //result=result1/2;
    myform.result.value=result;
   }
